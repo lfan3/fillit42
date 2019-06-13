@@ -1,0 +1,7 @@
+# avec ma macro
+gcw fillit -I fillit.h fillit.c file.c pieces.c utils.c libft/libft.a
+# normal
+gcc -Wall -Werror -Wextra -o fillit -I fillit.h fillit.c file.c pieces.c utils.c libft/libft.a
+
+##### pour avoir les lignes du code source dans valgrind ajouter -g a la fin
+
